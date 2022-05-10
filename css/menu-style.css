@@ -1,0 +1,103 @@
+body {font-family: Open Sans}
+header
+{
+    background-image:url(../img/menu_single.jpg);
+    background-size: cover;
+    height: 700px;
+    overflow: auto;
+}
+nav a {color: #fff ; text-transform:uppercase; }
+nav a:hover{color: #c59d5f;}
+.head-items h1 {text-transform: uppercase; font-weight: 800; font-size: 50px; margin-bottom: 2rem;font-family:Fjalla One}
+.head-items p {font-family: Courgette  ;font-size: 20px }
+.head-items i {font-size: 50px; margin: 3rem  0;}
+
+.fa-star{color: #c59d5f;} 
+.star-black {color: #515151;}
+span {padding: 4px 12px;color: #fff; border-radius: 10px;}
+.spicy {background-color:#c0392b ; text-align: center;}
+.dinner{background-color:#c59d5f ;text-align: center;}
+.in-stock {background-color:#27ae60 ;text-align: center;}
+.btn-outline-info { color: #c59d5f ; border-color : #c59d5f;}
+.btn-outline-info:hover  {background-color: #c59d5f;color: #fff; border-color : #c59d5f;}
+.social-icon i {color: black;border-radius: 50%  ;background-color: #f1f1f1; padding: 5px;}
+.food-name h1 {text-transform: uppercase;  font-size: 30px ; font-weight: 500;  font-family:Fjalla One  }
+
+.carousel-indicators [data-bs-target] {
+   
+    width: 150px;
+    height: 80px;
+    border-radius: 30px;
+}
+.carousel-indicators {top: 285px;}
+ .rev {background-color: #f5f5f5;}
+ .rev h4 {font-family:Fjalla One }
+ .rev-1 {width: 90%;border-radius: 20px; background-color: #fff; margin: auto; padding: 20px 30px;}
+ .rev-img img {border-radius: 20px;}
+ .rev-info h5 {font-family:Fjalla One ; font-weight: 400; font-size: 16px;}
+ .rev-info p { font-weight: 400; font-size: 12px;}
+ .rev-info h6 { font-weight: 400; font-size: 14px;}
+ .rev-1 i {color: #f5f5f5; font-weight: 800; font-size: 40px;}
+ .block{margin-top: 5rem;}
+ .nav-tabs .nav-link { background-color:#f5f5f5; color: #000; border-radius:0.5rem;}
+ .nav-tabs .nav-link:hover{background-color: #c59d5f;color: #fff;}
+ .sub-mit h2 {font-family:Fjalla One ; font-weight: 500; font-size: 24px; text-transform: uppercase;}
+ .sub-mit input {background-color: transparent;color: #000;}
+ .sub-mit textarea {background-color: transparent;color: #000;}
+ .sub-mit button { background-color: #262626;color: #fff;border-radius: 20px;padding: 6px 25px;border:transparent ;}
+ .sub-mit button:hover{background-color: #c59d5f; border:transparent;}
+ .interst-in {background-color:#f5f5f5 ;}
+ .interst-in h1{ font-size: 30px ; font-weight: 500;  font-family:Fjalla One }
+ .img-food {position: relative; overflow: hidden;}
+ .best-seller p
+ { padding: 4px 12px;
+    color: #fff;
+     background-color: #c59d5f;
+     top: 10px!important;
+    position: absolute;
+    left: auto;
+    right: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    
+    transition: all .5s;
+ }
+ .best-seller2 p
+ { padding: 4px 12px;
+    color: #fff;
+     background-color:#c0392b ;
+     top: 10px!important;
+    position: absolute;
+    left: auto;
+    right: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    
+    transition: all .5s;
+ }
+
+
+ .layer
+ {background-color: rgba(0,0,0,.7);
+     position: absolute;
+     bottom: -70px;
+    top: 225px;
+      left: 0;
+      right: 0;
+      transition: all 1s;
+       overflow: visible;
+    
+ }
+ .links i { padding: 7px 19px ; border-radius: 10px; border: 1px solid  #c59d5f; color: #c59d5f; margin: .5rem;}
+
+ .img-food:hover .layer { height: 100%; top: 0;}
+ .img-food:hover .best-seller {visibility: hidden;}
+ .img-food:hover .best-seller2 {visibility: hidden;}
+ .links i:hover {background-color: #c59d5f; color: #fff;}
+ footer { background-color: #191919;}
+ footer h1 {font-size: 24px; font-weight: 500;  font-family:Fjalla One; color: #fff;}
+ footer span { color: #7a7a7a;font-size: 14px;}
+ footer p {color: #fff;font-size: 14px;}
+ footer .social-icon i {background-color: #7a7a7a; color: #fff; padding: 10px; font-size: 12px;margin: 3px;}
+ .post-info h4  { font-size: 16px; color: #fff; text-transform: uppercase;}
+ .post-info p{font-size: 14px;color:#7a7a7a ; padding: 3px; }

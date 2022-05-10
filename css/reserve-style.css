@@ -1,0 +1,80 @@
+body {font-family: Open Sans}
+header
+{
+    background-image:url(..//img/services.jpg);
+    background-size: cover;
+    height: 700px;
+    overflow: auto;
+}
+nav a {color: #fff ; text-transform:uppercase; }
+nav a:hover{color: #c59d5f;}
+.head-items h1 {text-transform: uppercase; font-weight: 800; font-size: 50px; margin-bottom: 2rem;font-family:Fjalla One}
+.head-items p {font-family: Courgette  ;font-size: 20px }
+.head-items i {font-size: 50px; margin: 3rem  0;}
+.mnue-item {border: 2px solid #c59d5f; border-radius: 20px; color:black;}
+.mnue-item h2 {font-family: Fjalla One}
+.mnue-item img {height: 45%;}
+
+
+.reservation h2 {font-family:Fjalla One ; font-size: 40px; font-weight:800; }
+.reservation p { position: relative; font-family: Courgette}
+.reservation p::after 
+{
+    content: "";
+    position: absolute;
+    bottom: 80%;
+    right: 30%;
+    width:10%;
+    height: 2px;
+    background-color: #ddd;
+}
+.reservation p::before 
+ 
+{
+    content: "";
+    position: absolute;
+    bottom:80%;
+    left: 30%;
+    width: 10%;
+    height: 2px;
+    background-color: #ddd
+}
+.reservation {background-image: url(../img/bg_8.jpg); color: #fff;  }
+.reservation textarea
+{
+    height: 94px;
+    background-color: transparent;
+}
+.reservation input
+{
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+.reservation select
+{
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+ .reservation .date {position: relative;}
+.reservation i {position: absolute;bottom: 0px;left: 0px; }
+footer {background-color:#191919 ;}
+footer h1 {font-size: 24px; font-weight: 500;  font-family:Fjalla One; color: #fff;}
+ footer span { color: #7a7a7a;font-size: 14px;}
+ footer p {color: #fff;font-size: 14px;}
+ footer .social-icon i {background-color: #7a7a7a; color: #fff; padding: 10px; font-size: 12px;margin: 3px; border-radius: 50%;}
+ .post-info h4  { font-size: 16px; color: #fff; text-transform: uppercase;}
+ .post-info p{font-size: 14px;color:#7a7a7a ; padding: 3px; }
+  .time p { color:#7a7a7a ;}
+  footer time {color: #fff;}
+  footer .closed {border: solid 1px #c59d5f;background-color: #c59d5f;color: #fff;padding: 2px 6px;border-radius: 5px;}
+
+ .dark-logo {background-color: #101010;}
+ .logo-footer span {color: #c59d5f;}
